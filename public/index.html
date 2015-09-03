@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="kasDesign">
+
+<head>
+  <title>Kasallis' Design Studio</title>
+	<link rel="stylesheet" type="text/css" href="SEK.css">
+<!-- angular bootstrap lightbox stylesheet -->
+  <link rel="stylesheet" href="bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.css">
+  <div ng-view></div>
+<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+<!-- Cinzel font -->
+  <link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Cinzel::latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+
+<!-- Forum font -->
+  <link href='http://fonts.googleapis.com/css?family=Forum' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+    WebFontConfig = {
+      google: { families: [ 'Forum::latin' ] }
+    };
+    (function() {
+      var wf = document.createElement('script');
+      wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+        '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+      wf.type = 'text/javascript';
+      wf.async = 'true';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(wf, s);
+    })(); </script>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  @import url(http://fonts.googleapis.com/css?family=Cinzel);
+  @import url(http://fonts.googleapis.com/css?family=Forum);
+
+<!-- facebook -->
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) 
+      return;
+    js = d.createElement(s); 
+    js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+  </script>
+<!-- twitter -->
+  <script>!function(d,s,id){
+    var js,
+      fjs=d.getElementsByTagName(s)[0],
+      p=/^http:/.test(d.location)?'http':'https';
+    if(!d.getElementById(id)){
+      js=d.createElement(s);
+      js.id=id;
+      js.src=p+'://platform.twitter.com/widgets.js';
+      fjs.parentNode.insertBefore(js,fjs);
+    }
+  }(document, 'script', 'twitter-wjs');
+  </script>
+<!-- angular -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.js"></script>
+ <!-- bootstrap   --> 
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="bower_components/angular-bootstrap-lightbox/dist/angular-bootstrap-lightbox.js"></script>
+ <!-- jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- Compiled and minified materialize.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<!-- js files -->
+  <script type="text/javascript" src="app.js"></script>
+  <script type="text/javascript" src="earringsController.js"></script>
+  <script type="text/javascript" src="pendantsController.js"></script>
+  <script type="text/javascript" src="ringsController.js"></script>
+
+</body>
+</html>

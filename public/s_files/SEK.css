@@ -1,0 +1,244 @@
+/*
+adjust facebook button so all those other words are not on the page
+the "facebook-like" header buttons do not display correctly when the page is navigated to the first time but when the page is refreshed they work
+*/
+
+/*COLORS USED
+pageBackground-#D5D7E0-purplish white
+text-#ffffff-white
+textShadowing-#000000-greyish black
+boxShadowing-#6600CC-deep purple
+buttonBackground-#B6B9CC-darker purplish white
+anotherButtonBackground-#DFE0E8- greyish purpley white
+my resume-background: #B3BDF5, color: #3350F5;
+*/
+
+
+
+/*html*/
+html {
+  padding-top: 0;
+	text-align: center;
+	background-color: black;
+  color: white;
+  font-family: 'Forum', cursive;
+  font-size: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+} 
+
+a:hover {
+  color: #6600CC;
+}
+
+ /*homePage*/
+.mainHeader {
+	font-size: 8em; 
+  font-family: 'Cinzel', serif;
+  color: white;
+  background-color: black;
+  text-align: left;
+  margin-left: 2em;
+}
+
+.motto {
+  width: auto;
+  border-top: .07em solid white;
+  border-bottom: .07em solid black;
+  margin: 1em 0 1em 0;
+  padding: .54em;
+	font-size: 2em;
+	letter-spacing: .1em;
+  font-family: 'Cinzel', serif;
+}
+
+.buttonsAbovePhotos .buttons {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: .1em;
+  border: 0;
+  font-size: 1em;
+  font-family: 'Forum', cursive;
+  width: 30%;
+  letter-spacing: .1em;  
+}
+
+.buttons:hover {
+  color: #6600CC;
+}
+
+.photos img {
+  width: 30%;
+}
+
+.est1989 {
+	letter-spacing: .1em;
+  word-spacing: .5em;
+  font-size: 2.4em;
+  padding-bottom: 1em;
+  font-family: 'Cinzel', serif;
+}
+
+.about {
+  background-color: black;
+  width: 30%;
+  left: .2em;
+  bottom: .2em;
+  position: fixed;
+  color: white;
+  margin: 0;
+  padding: .2em;
+  border: 0;
+  font-size: 1em;
+  font-family: 'Forum', cursive;
+  letter-spacing: .1em;  
+}
+
+.about:hover {
+  color: #6600CC;
+}
+
+.contact {
+  background-color: black;
+  width: 30%;
+  right: .2em;
+  bottom: .2em;
+  position: fixed;
+  color: white;
+  margin: 0;
+  padding: .2em;
+  border: 0;
+  font-size: 1em;
+  font-family: 'Forum', cursive;
+  letter-spacing: .01em;  
+}
+
+.contact:hover {
+  color: #6600CC;
+}
+
+/*Facebook Login*/
+.facebookLogin {
+  top: 3em;
+}
+
+/*buttons on all but home page*/
+.button {
+  text-align: center;
+  position: fixed;
+	top: 0;
+  margin: 0;
+  padding: .1em;
+  border: 0;
+}
+
+.button .buttons {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: .15em;
+  border: 0;
+  font-size: 1.8em;
+  font-family: 'Forum', cursive;
+  width: 4em;
+  letter-spacing: .1em;  
+}
+
+.button .buttons:hover {
+  color: #6600CC;
+}
+
+/*rings, pendants, earrings pages*/
+.jewelryContainer {
+  padding-top: 6em;
+  display: flex;
+  width: 90%;
+  max-width: 120%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.jewelryAll {
+  width: 33%;
+}
+
+.jewelryAll img {
+  width: 100%;
+}
+
+.jewelryText {
+  font-size: 4em;
+  padding-bottom: 1.5em;
+  margin-top: 0;
+  letter-spacing: .15em;
+}
+
+/*about, contact pages*/
+.tel {
+  font-size: 3em;
+  padding: 1em;
+  letter-spacing: .07em;
+}
+
+.addressMap {
+  font-size: 3em;
+  padding: .25em;
+  letter-spacing: .07em;
+}
+
+/*about page*/
+
+.customBudget {
+  font-size: 7.5em;
+  padding: .25em;
+  letter-spacing: .07em;
+}
+
+.testimonials {
+  font-size: 3em;
+  padding: .25em;
+  letter-spacing: .07em;
+}
+
+.bioStephen {
+  font-size: 3em;
+  padding: .25em;
+  letter-spacing: .07em;
+}
+
+/*contact page*/
+.forYou {
+  font-size: 7em;
+  padding: .25em;
+  letter-spacing: .07em;
+}
+
+/*my resume*/
+.webAppDesignerContactInfo {
+  font-family: sans-serif;
+  background: #B3BDF5;
+}
+
+.paragraphs {
+  font-family: serif;
+  color: #3350F5;
+  background: #ffffff;
+  margin: 2em;
+}
+
+
+/*
+.sumome-share-client-wrapper.sumome-share-client-wrapper-left-page {
+  position: fixed;
+  width: 50px;
+  margin: 0;
+  top: 40%;
+  left: 0;
+  z-index: 10000000;
+}
+*/
