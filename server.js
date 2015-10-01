@@ -1,6 +1,5 @@
 // Dependencies
 var bodyParser = require('body-parser'), 
-	cool = require('cool-ascii-faces'),
 	cors = require('cors'),
 	express = require('express'),
 	session = require('express-session'),
