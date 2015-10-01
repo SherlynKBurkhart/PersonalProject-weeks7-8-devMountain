@@ -1,0 +1,21 @@
+{
+  "name": "public",
+  "version": "0.0.0",
+  "homepage": "https://github.com/SherlynKBurkhart/PersonalProject-weeks7-8-devMountain",
+  "authors": [
+    "Sherlyn Krebs <sherlynburkhart@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.7",
+    "angular-bootstrap-lightbox": "~0.9.0",
+    "angular-bootstrap": "~0.13.4"
+  }
+}
