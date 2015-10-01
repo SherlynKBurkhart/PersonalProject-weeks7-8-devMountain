@@ -36,8 +36,7 @@ passport.deserializeUser(function(obj, done) {
 	done(null, obj);
 });
 
-
-passport.uses(new facebookStrategy({
+passport.use(new facebookStrategy({
 	clientID: facebookAppId,
 	clientSecret: facebookAppSecret,
 	callbackURL: '/auth/facebook/callback',
