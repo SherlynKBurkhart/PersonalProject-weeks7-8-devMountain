@@ -126,7 +126,7 @@ app.controller('ringsController', function ($scope) {
 		// 	text: "Emma1"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringSk5.jpg",
-			text: ""
+			text: "Vasilisa"
 
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringVU8.jpg",
@@ -140,20 +140,20 @@ app.controller('ringsController', function ($scope) {
 
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringTt1.jpg",
-			text: ""
+			text: "Darya"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringHalo1.jpg",
-			text: ""
+			text: "Dominika"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringVw11.jpg",
-			text: ""
+			text: "Zhanna"
 
 		// },{	
 		// 	image: "https://s3.amazonaws.com/sekjewelry/rings/ringVz6.jpg",
 		// 	text: "Vz1"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringVz4.jpg",
-			text: ""
+			text: "Inessa"
 		},{
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringPlaskota6.jpg",
 			text: "Plaskota"
@@ -166,14 +166,14 @@ app.controller('ringsController', function ($scope) {
 		// 	text: "Anastasia2"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringIrwin4.jpg",
-			text: ""
+			text: "Kapitolina"
 
 		},{		
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringFrank9.jpg",
-			text: ""
+			text: "Lidiya"
 		},{
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringMurillo7.jpg",
-			text: ""
+			text: "Loshad"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringMitchell%2C+Steven1.jpg",
 			text: "Andreyevna"
@@ -183,40 +183,40 @@ app.controller('ringsController', function ($scope) {
 		// 	text: "Johnson1"
 		},{
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringJohnson6.jpg",
-			text: ""
+			text: "Malvina"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringDr4.jpg",
-			text: ""
+			text: "Olesya"
 
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringRutter13.jpg",
-			text: ""
+			text: "Florentina"
 		// },{
 		// 	image: "https://s3.amazonaws.com/sekjewelry/rings/ringRutter16.jpg",
 		// 	text: "Rutter2"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringJl7.jpg",
-			text: ""
+			text: "Emma"
 
 		},{
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringRr10.jpg",
-			text: ""
+			text: "Siniy"
 		// },{	
 		// 	image: "https://s3.amazonaws.com/sekjewelry/rings/ringRr11.jpg",
 		// 	text: "Rr2"
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringPost1.jpg",
-			text: ""
+			text: "Alisa"
 
 		},{	
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringEmerald6.jpg",
-			text: ""
+			text: "Polina"
 		// },{
 		// 	image: "https://s3.amazonaws.com/sekjewelry/rings/ringEmerald3.jpg",
 		// 	text: "Emerald2"
 		},{
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringMq6.jpg",
-			text: ""
+			text: "Rozalina"
 		}
 	]
 });
