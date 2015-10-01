@@ -1,20 +1,3 @@
-/*
-adjust facebook button so all those other words are not on the page
-the "facebook-like" header buttons do not display correctly when the page is navigated to the first time but when the page is refreshed they work
-*/
-
-/*COLORS USED
-pageBackground-#D5D7E0-purplish white
-text-#ffffff-white
-textShadowing-#000000-greyish black
-boxShadowing-#6600CC-deep purple
-buttonBackground-#B6B9CC-darker purplish white
-anotherButtonBackground-#DFE0E8- greyish purpley white
-my resume-background: #B3BDF5, color: #3350F5;
-*/
-
-
-
 /*html*/
 html {
   padding-top: 0;
@@ -231,14 +214,3 @@ a:hover {
   margin: 2em;
 }
 
-
-/*
-.sumome-share-client-wrapper.sumome-share-client-wrapper-left-page {
-  position: fixed;
-  width: 50px;
-  margin: 0;
-  top: 40%;
-  left: 0;
-  z-index: 10000000;
-}
-*/

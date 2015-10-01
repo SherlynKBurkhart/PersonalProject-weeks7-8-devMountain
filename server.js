@@ -1,8 +1,3 @@
-//exampleFile-406-FacebookViewer-server.js
-//exampleFile-325-mini-birds-models-server.js
-//exampleFile-GITHUB-JASON DAWSON POLL SERVER.JS, has googleStrategy also
-//exampleFile-GITHUB-JARED HANSON'S PASSPORT-FACEBOOK  
-
 // Dependencies
 var bodyParser = require('body-parser'), 
 	cors = require('cors'),
@@ -41,20 +36,22 @@ passport.deserializeUser(function(obj, done) {
 	done(null, obj);
 });
 
-// passport.uses(new facebookStrategy({
-// 	clientID: facebookAppId,
-// 	clientSecret: facebookAppSecret,
-// 	callbackURL: 'http://localhost:8080/auth/facebook/callback',
-// 	enableProof: false
-// // },	
-// 	function(accessToken, refreshToken, profile, done) {
-// 		// userCtrl.findOrCreate({ facebookId: profile.id },
-// 		// 	function (err, user) {
-// 		// 	}
-// 		//);  				
-// 		return done();
-// 	})
-// );
+
+passport.uses(new facebookStrategy({
+	clientID: facebookAppId,
+	clientSecret: facebookAppSecret,
+	callbackURL: '/auth/facebook/callback',
+	enableProof: false
+},	
+	function(accessToken, refreshToken, profile, done) {
+		// userCtrl.findOrCreate({ facebookId: profile.id },
+		// 	function (err, user) {
+		// 	}
+		//);  				
+		return done(profile);
+	})
+);
+
 
 // Middleware
 var	app = express();
@@ -89,19 +86,15 @@ app.get('/auth/facebook',
 	passport.authenticate('facebook')
 );
 
-app.get('/auth/facebook/callback', 
-	passport.authenticate('facebook',
-	{ successRedirect: '/', failureRedirect: '/' }),
-	function(req, res) {
-	
-	res.redirect('/');
-});
+app.get('/auth/facebook/callback', passport.authenticate('facebook', {
+	successRedirect: '/',
+	failureRedirect: '/' 
+}));
 
 app.get('auth/logout', 
 	function(req, res){
 		req.logout();
 		res.redirect('/');
-	
 });
 
 function ensureAuthenticated(req, res, next) {
