@@ -1,29 +1,32 @@
 {
-  "name": "kasallisdesign",
+  "name": "kasallisjewelry",
   "version": "1.0.0",
   "description": "",
-  "main": "jewelry.js",
-  "dependencies": {
-    "body-parser": "^1.13.2",
-    "cors": "^2.7.1",
-    "express": "^4.13.1",
-    "express-session": "^1.11.3",
-    "materialize-css": "0.96.1",
-    "mongodb-core": "^1.2.6",
-    "mongoose": "^4.0.7",
-    "passport": "^0.2.2",
-    "passport-facebook": "^2.0.0",
-    "passport-local": "^1.0.0",
-  },
-  "devDependencies": {},
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-    "engines": {
-    "node": "0.12.2"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SherlynKBurkhart/PersonalProject-weeks7-8-devMountain.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SherlynKBurkhart/PersonalProject-weeks7-8-devMountain/issues"
+  },
+  "homepage": "https://github.com/SherlynKBurkhart/PersonalProject-weeks7-8-devMountain#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "materialize-css": "^0.97.1",
+    "mongodb-core": "^1.2.14",
+    "mongoose": "^4.1.9",
+    "passport": "^0.3.0",
+    "passport-facebook": "^2.0.0",
+    "passport-local": "^1.0.0"
+  }
 }
- 

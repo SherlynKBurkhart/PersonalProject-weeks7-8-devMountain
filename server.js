@@ -121,4 +121,17 @@ db.once('open', function() {
 
 app.listen(app.get('port'), function() {
 	console.log('Node app is running on port ', app.get('port'));
-}); 
+});
+
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.1",
+    "express-session": "^1.11.3",
+    "materialize-css": "0.96.1",
+    "mongodb-core": "^1.2.6",
+    "mongoose": "^4.0.7",
+    "passport": "^0.2.2",
+    "passport-facebook": "^2.0.0",
+    "passport-local": "^1.0.0",
+  }
