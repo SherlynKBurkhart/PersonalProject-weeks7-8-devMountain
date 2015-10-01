@@ -20,7 +20,6 @@ var bodyParser = require('body-parser'),
 	facebookAppSecret = config.facebookAppSecret;
 
 // Connections
-var port = process.env.EXPRESS_PORT || 9005;
 var mongoUri = 'mongodb://localhost:27017/KasallisDesignStudio';
 
 // Login user 
@@ -55,7 +54,7 @@ passport.use(new facebookStrategy({
 // Middleware
 var	app = express();
 // Configure Express
-app.set('port', (process.env.PORT || 9005))
+app.set('port', (process.env.EXPRESS_PORT || 9005))
 
 app.use(express.static(__dirname + '/public'));
 
