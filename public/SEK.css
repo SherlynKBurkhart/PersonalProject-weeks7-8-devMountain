@@ -143,6 +143,7 @@ a:hover {
   text-align: center;
 }
 
+
 /*about, contact pages*/
 .tel {
   font-size: 1.5em;
@@ -153,14 +154,17 @@ a:hover {
 
 .addressMap {
   font-size: 1.5em;
-  padding: .25em;
+  /*padding: .25em;*/
   color: white;
   text-align: center;
 }
 
 .hours {
+  font-size: 1.5em;
   color: white;
+  text-align: center;
 }
+
 /*about page*/
 .jrHeader {
   font-size: 6em; 
