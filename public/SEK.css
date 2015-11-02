@@ -42,6 +42,11 @@ a:hover {
   color: white;
 }
 
+.mainHeaderSmall {
+  text-align: center;
+  font-size: 5em;
+}
+
 .homePageBtns {
   background-color: black;
   color: white;
