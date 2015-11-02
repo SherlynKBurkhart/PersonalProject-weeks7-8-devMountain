@@ -42,11 +42,6 @@ a:hover {
   color: white;
 }
 
-.mainHeaderSmall {
-  text-align: center;
-  font-size: 5em;
-}
-
 .homePageBtns {
   background-color: black;
   color: white;
@@ -69,10 +64,6 @@ a:hover {
   text-align: center;
 }
 
-.mottoSmall {
-  border-top: .06em solid white;
-  border-bottom: .06em solid white;
-}
 .photoButtons .buttons {
   background-color: black;
   color: white;
@@ -81,10 +72,6 @@ a:hover {
   border: 0;
   font-size: 2em;
   font-family: 'Forum', cursive;
-}
-
-.photoButtonsSmall {
-  font-size: 1em;
 }
 
 .buttons:hover {
