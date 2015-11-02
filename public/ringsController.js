@@ -120,7 +120,7 @@ app.controller('ringsController', function ($scope) {
 			
 		},{
 			image: "https://s3.amazonaws.com/sekjewelry/rings/ringSk9.jpg",
-			text: "Tatyana"
+			text: "Anna"
 		// },{	
 		// 	image: "https://s3.amazonaws.com/sekjewelry/rings/ringSk1.jpg",
 		// 	text: "Emma1"

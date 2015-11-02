@@ -1,4 +1,4 @@
-//embed photos 2 thru n in photo 1
+ //embed photos 2 thru n in photo 1
 
 
 var app = angular.module('kasDesign');
