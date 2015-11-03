@@ -40,6 +40,12 @@ a:hover {
   color: white;
 }
 
+.navbar {
+  top: 10px;
+  position: fixed;
+  color: orange;
+}
+
 .navBtns {
   background-color: black;
   color: white;
