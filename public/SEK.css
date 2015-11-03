@@ -56,18 +56,11 @@ a:hover {
   color: white;
 }
 
-.tel {
+.contactInfo {
   font-size: 1.5em;
   color: white;
   font-family: 'Cinzel', serif;
-}
-
-.est1989 {
-  font-size: 1.5em;
-  margin-top: 2em;
-  padding-bottom: 1em;
-  font-family: 'Cinzel', serif;
-  position: absolute center bottom;
+  /*position: absolute center bottom;*/
 }
 
 
