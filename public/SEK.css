@@ -23,21 +23,12 @@ a:hover {
   color: #6600CC;
 }
 
+/*index.html*/
 
-/*homePage*/
 .sumome-share-client-wrapper
 .sumome-share-client-wrapper-left-page {
   top: 1em;
   margin-top: 0;
-}
-
-.facebookLogin {
-}
-
-.mainHeader {
-	font-size: 6em; 
-  font-family: 'Cinzel', serif;
-  color: white;
 }
 
 .navbar {
@@ -59,6 +50,23 @@ a:hover {
   color: #6600CC;
 }
 
+.mainHeader {
+  font-size: 6em; 
+  font-family: 'Cinzel', serif;
+  color: white;
+}
+
+
+.est1989 {
+  font-size: 1.5em;
+  margin-top: 2em;
+  padding-bottom: 1em;
+  font-family: 'Cinzel', serif;
+  position: absolute center bottom;
+}
+
+
+/*home.html*/
 .motto {
   width: auto;
   border-top: .05em solid white;
@@ -71,8 +79,8 @@ a:hover {
 .photoButtons .buttons {
   background-color: black;
   color: white;
-  /*margin-top: 4em;*/
-  /*padding-top: 4em;*/
+  margin-top: 4em;
+  padding-top: 4em;
   border: 0;
   font-size: 2em;
   font-family: 'Forum', cursive;
@@ -83,14 +91,7 @@ a:hover {
 }
 
 .photos img {
-  padding-top: 4em;
-}
-
-.est1989 {
-  font-size: 1.5em;
-  margin-top: 2em;
-  padding-bottom: 1em;
-  font-family: 'Cinzel', serif;
+  /*padding-top: 4em;*/
 }
 
 
