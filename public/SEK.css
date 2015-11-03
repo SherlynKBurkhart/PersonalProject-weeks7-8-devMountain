@@ -47,11 +47,10 @@ a:hover {
 }
 
 .navBtns {
-  background-color: yellow;
+  /*background-color: black;*/
   color: red;
-  border: 0;
   font-size: 1.5em;
-  font-family: 'Forum', cursive;
+  /*font-family: 'Forum', cursive;*/
 }
 
 .navBtns:hover {
