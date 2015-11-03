@@ -42,7 +42,7 @@ a:hover {
 
 .navbar {
   top: 0px;
-  position: absolute center;
+  position: absolute center top;
   background-color: black;
 }
 
