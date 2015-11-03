@@ -56,6 +56,11 @@ a:hover {
   color: white;
 }
 
+.tel {
+  font-size: 1.5em;
+  color: white;
+  font-family: 'Cinzel', serif;
+}
 
 .est1989 {
   font-size: 1.5em;
@@ -142,11 +147,7 @@ a:hover {
 
 
 /*about, contact pages*/
-.tel {
-  font-size: 1.5em;
-  /*padding: 1em;*/
-  color: white;
-}
+
 
 .addressMap {
   font-size: 1.5em;
@@ -186,11 +187,6 @@ a:hover {
   color: #6600CC;
 }
 
-.aboutTel {
-  font-size: 3em;
-  padding: 2em;
-  font-family: 'Cinzel', serif;
-}
 
 /*contact page*/
 .forYou {
