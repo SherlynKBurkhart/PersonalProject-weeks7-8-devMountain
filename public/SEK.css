@@ -48,9 +48,9 @@ a:hover {
 
 .navBtns {
   background-color: yellow;
-  color: white;
+  color: red;
   border: 0;
-  font-size: .05em;
+  font-size: 1em;
   font-family: 'Forum', cursive;
 }
 
