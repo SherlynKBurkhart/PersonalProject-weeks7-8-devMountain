@@ -7,7 +7,7 @@ the "facebook-like" header buttons do not display correctly when the page is nav
 /*html*/
 html {
   padding-top: 0;
-	text-align: left;
+	text-align: center;
 	background-color: black;
   color: white;
   font-family: 'Forum', cursive;
@@ -27,13 +27,11 @@ a:hover {
 /*homePage*/
 .sumome-share-client-wrapper
 .sumome-share-client-wrapper-left-page {
-  text-align: center;
   top: 1em;
   margin-top: 0;
 }
 
 .facebookLogin {
-  text-align: center;
 }
 
 .mainHeader {
@@ -42,7 +40,7 @@ a:hover {
   color: white;
 }
 
-.homePageBtns {
+.navBtns {
   background-color: black;
   color: white;
   border: 0;
@@ -50,7 +48,7 @@ a:hover {
   font-family: 'Forum', cursive;
 }
 
-.homePageBtns:hover {
+.navBtns:hover {
   color: #6600CC;
 }
 
@@ -61,7 +59,6 @@ a:hover {
 	font-size: 2em;
   font-family: 'Cinzel', serif;
   color: white;
-  text-align: center;
 }
 
 .photoButtons .buttons {
@@ -72,7 +69,6 @@ a:hover {
   border: 0;
   font-size: 2em;
   font-family: 'Forum', cursive;
-  text-align: center;
 }
 
 .buttons:hover {
@@ -88,13 +84,11 @@ a:hover {
   margin-top: 2em;
   padding-bottom: 1em;
   font-family: 'Cinzel', serif;
-  text-align: center;
 }
 
 
 /*buttons on all but home page*/
 .button {
-  text-align: center;
 	top: 0;
   margin: 0;
   padding: .1em;
@@ -109,10 +103,6 @@ a:hover {
   border: 0;
   font-size: 1.8em;
   font-family: 'Forum', cursive;
-}
-
-.button .buttons:hover {
-  color: #6600CC;
 }
 
 /*rings, pendants, earrings pages*/
@@ -140,7 +130,6 @@ a:hover {
   margin-top: 0;
   letter-spacing: .15em;
   color: white;
-  text-align: center;
 }
 
 
@@ -149,20 +138,17 @@ a:hover {
   font-size: 1.5em;
   /*padding: 1em;*/
   color: white;
-  text-align: center;
 }
 
 .addressMap {
   font-size: 1.5em;
   /*padding: .25em;*/
   color: white;
-  text-align: center;
 }
 
 .hours {
   font-size: 1.5em;
   color: white;
-  text-align: center;
 }
 
 /*about page*/
@@ -177,7 +163,6 @@ a:hover {
   padding: 2em;
   color: white;
   font-family: 'Cinzel', serif;
-  text-align: center;
 }
 
 .certifications {
@@ -197,7 +182,6 @@ a:hover {
   font-size: 3em;
   padding: 2em;
   font-family: 'Cinzel', serif;
-  text-align: center;
 }
 
 /*contact page*/
@@ -206,7 +190,6 @@ a:hover {
   padding: 2em;
   color: white;
   font-family: 'Cinzel', serif;
-  text-align: center;
 }
 
 .contactPhoto {
@@ -217,7 +200,6 @@ a:hover {
   font-size: 1.5em;
   color: white;
   background-color: black;
-  text-align: center;
   border: none
 }
 
