@@ -32,8 +32,8 @@ a:hover {
 }
 
 .navbar {
-  top: 0px;
-  position: absolute center top;
+  /*top: 0px;*/
+  /*position: absolute center top;*/
   background-color: black;
 }
 
