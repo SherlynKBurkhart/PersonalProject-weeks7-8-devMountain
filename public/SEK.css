@@ -41,13 +41,13 @@ a:hover {
 }
 
 .navbar {
-  top: 10px;
+  top: 0px;
   position: fixed;
   color: orange;
 }
 
 .navBtns {
-  background-color: black;
+  background-color: yellow;
   color: white;
   border: 0;
   font-size: .05em;
