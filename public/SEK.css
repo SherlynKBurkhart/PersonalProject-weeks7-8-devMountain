@@ -153,13 +153,8 @@ a:hover {
   color: white;
 }
 
-/*about page*/
-.jrHeader {
-  font-size: 6em; 
-  font-family: 'Cinzel', serif;
-  color: white;
-}
 
+/*about page*/
 .customBudget {
   border-top: .05em solid white;
   border-bottom: .05em solid white;
@@ -171,11 +166,9 @@ a:hover {
 
 .certifications {
   font-size: 1.5em;
-  /*padding: .25em;*/
   color: white;
   background-color: black;
   border: none;
-  /*text-align: center;*/
 }
 
 .certifications:hover {
