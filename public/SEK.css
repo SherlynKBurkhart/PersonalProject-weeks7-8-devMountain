@@ -141,7 +141,7 @@ a:hover {
 }
 
 #earringPhoto {
-  content: center;
+  display: center;
 }
 
 /*about, contact pages*/
