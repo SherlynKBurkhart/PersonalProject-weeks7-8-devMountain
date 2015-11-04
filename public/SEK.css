@@ -93,7 +93,7 @@ a:hover {
 }
 
 
-/*buttons on all but home page*/
+/*buttons*/
 .button {
 	top: 0;
   margin: 0;
@@ -112,6 +112,12 @@ a:hover {
 }
 
 /*rings, pendants, earrings pages*/
+
+.jewelryMotto {
+  border-top: .05em solid white;
+  border-bottom: .05em solid white;
+}
+
 .jewelryContainer {
   padding-top: 6em;
   display: flex;
@@ -140,8 +146,6 @@ a:hover {
 
 
 /*about, contact pages*/
-
-
 .addressMap {
   font-size: 1.5em;
   /*padding: .25em;*/
@@ -161,6 +165,8 @@ a:hover {
 }
 
 .customBudget {
+  border-top: .05em solid white;
+  border-bottom: .05em solid white;
   font-size: 2em;
   padding: 2em;
   color: white;
@@ -183,6 +189,8 @@ a:hover {
 
 /*contact page*/
 .forYou {
+  border-top: .05em solid white;
+  border-bottom: .05em solid white;
   font-size: 3em;
   padding: 2em;
   color: white;
