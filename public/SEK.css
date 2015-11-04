@@ -140,6 +140,9 @@ a:hover {
   color: white;
 }
 
+.earringPhoto {
+  align-content: center;
+}
 
 /*about, contact pages*/
 .addressMap {
