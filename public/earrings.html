@@ -58,8 +58,8 @@
 </div>
 
 <!-- ANGULAR AND MY ORIGINAL CODE -->
-<div class="jewelryContainer">
-	<div class="jewelryAll earringPhoto"
+<div class="jewelryContainer" id="earringPhoto">
+	<div class="jewelryAll" 
 	ng-controller="earringsController" 
 	ng-repeat="earring in earrings track by $index">
 	    <a ng-click="openLightboxModal($index)">

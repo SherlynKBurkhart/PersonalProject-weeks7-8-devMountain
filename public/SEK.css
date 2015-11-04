@@ -140,8 +140,8 @@ a:hover {
   color: white;
 }
 
-.earringPhoto {
-  align-content: center;
+#earringPhoto {
+  content: center;
 }
 
 /*about, contact pages*/
