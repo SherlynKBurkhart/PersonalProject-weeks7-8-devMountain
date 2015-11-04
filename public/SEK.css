@@ -114,8 +114,12 @@ a:hover {
 /*rings, pendants, earrings pages*/
 
 .jewelryMotto {
+  width: auto;
   border-top: .05em solid white;
   border-bottom: .05em solid white;
+  font-size: 2em;
+  font-family: 'Cinzel', serif;
+  color: white;
 }
 
 .jewelryContainer {
