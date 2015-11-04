@@ -63,10 +63,8 @@ a:hover {
   /*position: absolute center bottom;*/
 }
 
-
-/*home.html*/
 .motto {
-  width: auto;
+  /*width: auto;*/
   border-top: .05em solid white;
   border-bottom: .05em solid white;
 	font-size: 2em;
@@ -74,6 +72,8 @@ a:hover {
   color: white;
 }
 
+
+/*home.html*/
 .photoButtons .buttons {
   background-color: black;
   color: white;
