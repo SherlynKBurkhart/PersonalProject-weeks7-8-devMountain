@@ -33,7 +33,7 @@ a:hover {
 
 .navbar {
   margin-top: 10px;
-  /*position: absolute center top;*/
+  position: absolute center top;
   background-color: black;
 }
 
