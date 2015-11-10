@@ -58,6 +58,10 @@ a:hover {
   color: white;
 }
 
+.homeImages {
+  max-width: 25%;
+}
+
 .photoButtons .buttons {
   background-color: black;
   color: white;
