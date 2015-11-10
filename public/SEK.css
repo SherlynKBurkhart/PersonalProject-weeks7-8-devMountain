@@ -32,7 +32,7 @@ a:hover {
 }
 
 /*home.html*/
-.md-toolbar-tools {
+.navBtns {
   background-color: black;
   border-color: black;
   color: white;
@@ -41,7 +41,7 @@ a:hover {
   text-align: center;
 }
 
-.md-toolbar-tools:hover {
+.navBtns:hover {
   color: #6600CC;
 }
 
