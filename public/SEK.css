@@ -82,6 +82,7 @@ a:hover {
   font-size: 1.5em;
   font-family: 'Forum', cursive;
   max-width: 33%;
+  display: flex;
 }
 
 .buttons:hover {
