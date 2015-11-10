@@ -60,6 +60,7 @@ a:hover {
 
 .homeImages {
   max-width: 25%;
+  padding: 1em;
 }
 
 .photoButtons .buttons {
