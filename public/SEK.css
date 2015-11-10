@@ -60,6 +60,7 @@ a:hover {
 
 .homeImages {
   padding: 3em;
+  width: 33%;
 }
 
 .photoButtons .buttons {
@@ -68,6 +69,7 @@ a:hover {
   border: 0;
   font-size: 1.5em;
   font-family: 'Forum', cursive;
+  margin-bottom: 2em;
 }
 
 .buttons:hover {
