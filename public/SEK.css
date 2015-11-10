@@ -82,7 +82,7 @@ a:hover {
   border: 0;
   font-size: 2em;
   font-family: 'Forum', cursive;
-  border-image-width: 4em;
+  /*border-image-width: 4em;*/
 }
 
 .buttons:hover {
